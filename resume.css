@@ -1,19 +1,40 @@
 body {
-    background-color: pink;
-}
-
-h1 {
+    background-color: rgb(247, 178, 191);
     color: white;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
- } 
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-color: #f17187;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10% 20%;
+ }
 
+ .exp-header {
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid #f17187;
+    border-bottom: 1px solid #f17187;
+    margin-bottom: 40px;
+    background-color: rgba(245, 90, 115, 0.093)
+ }
 
-    .header {
-        background-color: black;
-        padding-left: 10px;
-    }
-    .footer {
-        background: rgb(57, 169, 57);
-    }
+ .hero {
+    border-radius: 90%;
+    vertical-align: left;
+    width: 170px;
+ }
+
+ .company {
+    margin-top: 100px;
+ }
+
+.logo {
+    align-items: center;
+    vertical-align: middle;
+    width: 20px;
 }
