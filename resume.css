@@ -1,40 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 body {
-    background-color: rgb(247, 178, 191);
+    background-color: rgb(208, 204, 204);
+    border-color: rgb(66, 62, 62);
     color: white;
     border-top-style: double;
     border-bottom-style: double;
     border-left-style: double;
     border-right-style: double;
-    border-color: #f17187;
-    padding-top: 5%;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-bottom: 5%;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10% 20%;
- }
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-family: Raleway;
+    font-size: 25px;
+}
+.sub {
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 33px;
+}
+li {
+    font-size: 18px;
+}
+.job {
+    padding-left: 10px;
+    padding-top: 5px;
+}
 
  .exp-header {
     text-align: center;
     text-transform: uppercase;
-    border-top: 1px solid #f17187;
-    border-bottom: 1px solid #f17187;
+    border-top: 1px solid rgb(66, 62, 62);
+    border-bottom: 1px solid rgb(66, 62, 62);
     margin-bottom: 40px;
-    background-color: rgba(245, 90, 115, 0.093)
- }
+    margin-top: 10px;
+    background-color:  rgba(6, 6, 6, 0.143);
+}
 
  .hero {
-    border-radius: 90%;
-    vertical-align: left;
-    width: 170px;
- }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin:auto;
+    border-radius: 5%;
+    opacity: 70%
+}
 
  .company {
     margin-top: 100px;
- }
+}
 
 .logo {
     align-items: center;
     vertical-align: middle;
-    width: 20px;
+    width: 25px;
+    padding-right: 4px;
+
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example{
+        background-color: rgb(211, 197, 178);
+        border-color: rgb(128, 109, 82);
+     }
+     .logo {
+        fill: rgba(128, 109, 82, 0.213);
+     }
+     .job:hover {
+        background-color:rgba(128, 109, 82, 0.213);;
+        border-top: 1px solid  rgb(128, 109, 82);
+        border-bottom: 1px solid rgba(128, 109, 82, 0.229);
+     }
+     .job:hover .logo {
+        fill:  rgb(211, 197, 178);
+     }
+    .exp-header {
+        border-top: 1px solid rgb(128, 109, 82);
+        border-bottom: 1px solid rgb(128, 109, 82);
+        background-color: rgba(128, 109, 82, 0.213);
+     }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {
+        background: rgb(212, 215, 243);
+        border-color: #5565f8;
+     }
+    .exp-header {
+        border-top: 1px solid #5565f8;
+        border-bottom: 1px solid #5565f8;
+        background-color: #5565f833;
+     }
+     .logo {
+        fill:#17228a33;
+     }
+     .job:hover {
+        background-color: #5565f833;
+        border-top: 1px solid #5565f8;
+        border-bottom: 1px solid #5565f8;;
+     }
+     .job:hover .logo {
+        fill:rgb(212, 215, 243);
+     }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {
+        background: rgb(163, 189, 163);
+        border-color: rgb(88, 126, 88);
+
+    }
+    .exp-header {
+        border-top: 1px solid rgb(88, 126, 88);
+        border-bottom: 1px solid rgb(88, 126, 88);
+        background-color: rgba(56, 80, 56, 0.178);
+     }
+     .logo {
+        fill: rgba(16, 62, 16, 0.178);
+     }
+     .job:hover {
+        background-color: rgba(56, 80, 56, 0.178);
+        border-top: 1px solid  rgb(88, 126, 88);
+        border-bottom: 1px solid  rgb(88, 126, 88);
+     }
+     .job:hover .logo {
+        fill: rgb(156, 194, 156);
+     }
+
+} 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1024px) {
+    .example {
+        background: rgb(246, 183, 173);
+        width: 1024px;
+        border-color: rgb(244, 130, 115);
+        width: 96%;
+     }
+    .exp-header {
+        border-top: 1px solid rgb(244, 130, 115);
+        border-bottom: 1px solid rgb(244, 130, 115);
+        background-color: rgba(186, 81, 68, 0.214); 
+     }
+     .logo {
+        fill: rgba(186, 81, 68, 0.214);
+     }
+     .job:hover {
+        background-color: rgba(186, 81, 68, 0.214); 
+        border-top: 1px solid rgb(244, 130, 115);
+        border-bottom: 1px solid rgb(244, 130, 115);
+     }
+     .job:hover .logo {
+        fill: rgb(246, 183, 173);
+     }
+
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {
+        background: rgb(208, 204, 204);
+        border-color: rgb(66, 62, 62);
+        width: 97%
+     }
+    .exp-header {
+        border-top: 1px solid rgb(66, 62, 62);
+        border-bottom: 1px solid rgb(66, 62, 62);
+        background-color:  rgba(6, 6, 6, 0.143);
+     }
+     .logo {
+        fill:  rgba(6, 6, 6, 0.143);
+     }
+     .job:hover {
+        background-color: rgba(6, 6, 6, 0.143);
+        border-top: 1px solid rgb(66, 62, 62);
+        border-bottom: 1px solid rgb(66, 62, 62);
+     }
+     .job:hover .logo {
+        fill: rgb(208, 204, 204);
+     }
+
 }
